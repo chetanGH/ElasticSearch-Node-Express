@@ -13,7 +13,7 @@ const elasticsearch = require('elasticsearch'); // npm i elasticsearch --save --
  * Once set up completed terminal will popup and start listening to localhost:9200.
  */ 
 
-// Connecting ElasticSearch Local Server, if you want to connect to ElasticHosting or any cloud? mention host URL and Bearer token or IAM credentials
+//Connecting ElasticSearch Local Server, if you want to connect to ElasticHosting or any cloud? mention host URL and Bearer token or IAM credentials
 const client = new elasticsearch.Client({
    host:'http://localhost:9200',
    log:'trace'
